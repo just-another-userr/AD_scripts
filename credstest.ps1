@@ -2,7 +2,7 @@
 
 ## Author: Patrick Kroll 
 
-$adServer = '192.168.4.22'
+$adServer = read-host -prompt "Enter the IP address of the AD server you would like to make changes in"
 ## $loginName = $domain + '\' ## $env:username
 
 Write-Output 'Please enter your password for the domain'

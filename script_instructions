@@ -1,0 +1,15 @@
+**Any of the provided code can be modified to suit the needs of an individual or organization**
+
+1. Copy or download script to desired system with powershell and Active Directory module installed
+
+2. Right Click on script 
+
+3. Press 'y' if prompted to allow script to run
+
+4. Enter the IP address of the AD server you'd like to connect to and make changes 
+
+5. Enter your credentials for that domain
+
+6. Enter the name of the user you're searching for (Note that this shouldn't be the sAMAccountName but the value in the display name field) 
+
+7. Follow prompts

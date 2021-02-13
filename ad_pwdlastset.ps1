@@ -32,7 +32,7 @@ Write-Output ' '
         
         try 
         {   ## Get the pwdLastSet attribute
-            $time = get-aduser -Server $adServer -Credential $creds -Filter "DisplayName -eq '$nameOfUser'" -Properties * | Select-Object pwdLastSet
+            $time = get-aduser -Server $adServer -Credential $creds -Filter {DisplayName -eq $nameOfUser} -Properties * | Select-Object pwdLastSet
         }
         catch 
         { 
